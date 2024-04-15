@@ -26,6 +26,7 @@ export class CompanyController {
   @HttpCode(201)
   createCompany(@Body() company: CreateCompanyRequestDto) {
     return company;
+    //
   }
 
   @Get('/old/v1')
